@@ -1,0 +1,20 @@
+/* Conservez ces lignes de css */
+:root,
+[data-bs-theme=light] {
+  --bs-primary: #ef5552;
+  --bs-primary-rgb: 255, 0, 0
+}
+
+@import url("https://web3.tim-momo.com/carre/styles.css");
+
+.back {
+  aspect-ratio: 5 / 7;
+}
+
+.carte {
+  aspect-ratio: 5 / 7;
+}
+
+.flip {
+  transform: scaleY(-1);
+}
